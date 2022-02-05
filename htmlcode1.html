@@ -1,0 +1,321 @@
+
+<html>
+<head>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+  
+}
+
+html
+
+.bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4,.bgimg-5{
+  position: relative;
+  opacity: 2.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+
+
+.bgimg-1 {
+  background-image: url("friends.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("360.png");
+  min-height: 600px;
+}
+
+.bgimg-3 {
+  background-image: url("pencil.png");
+  min-height: 600px;
+}
+.bgimg-4 {
+    background-image: url("sq.jpg");
+    min-height: 700px;
+}
+
+.bgimg-5 {
+    background-image: url("tk.jpg");
+    min-height: 700px;
+    ;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color:transparent ;
+  color: white;
+  padding: 18px;
+  font: 60px "Lato", "Algerian";
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 40px "Lato", "Algerian";
+  color:  gold;
+  background-color: black;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+ .bgimg-1, .bgimg-2, .bgimg-3 {
+   background-attachment: scroll;
+  }
+}
+</style>
+
+</head>
+<body onload="initialize()" onkeyup="if(event.keyCode == 32) { pushbutton(); }">
+
+    
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="80%"></td>
+		<td width="100%"><a href="#ABOUT ME"> ABOUT ME</a></td>
+		<td width="100%"><a href="#MY HOBBIES"> MY HOBBIES</a></td>
+	</tr>
+</table>
+ 
+<div class="bgimg-1" >
+  <div class="caption">
+  <span class="border" style="color: gold;"> HELLO!<br>
+       WELCOME TO SAIPRATEETH'S WORLD 🌎😀</span>
+  </div>
+</div>
+
+<div style="color: rgb(255, 255, 255);background-color:rgb(0, 0, 0);text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;" id ="ABOUT ME">  ABOUT ME </h3>
+  <p> I am Saiprateeth, a student of Sindhi High School.This is my personal website for my friends and family
+    .This web site allows me to express my self to my dear ones and my new friends.  
+  </div>
+  
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:black;font-size:50px;color:gold;" id="MY HOBBIES">MY HOBBIES</span>
+  </div> 
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3  class="border" style="background-color:#282E34;font-size:25px;color: #f7f7f7;"background-position=center>CUBING</h3>
+  <p >  There are many activities i like  but only few are resumed . The hobby that I keep doing is solving a Rubik's cube. It is one of the familier puzzle to all. 
+    Rubik's Cube was invented in 1974[2][3] by Hungarian sculptor and professor of architecture Ernő Rubik.
+     Originally called the Magic Cube.As this became popular and was the most active puzzle to reach a million people .
+    as the popularity grew people started to form an organisation called <b>World Cube Organisation (WCA)</b> .
+     After the popularity of 3x3 cube , they created many puzzles to be sold such as 2x2 ,4z4,5x5,6x5 to the largest cube of the World 19x19. 
+     Though I can solve only few of them. I can solve the standard 3x3 cube in 1.30 min but i am quite very far from the world record timing . the current  world record for fastest Rubik's is <i><b>Feliks Zemdegs with the timimg 4.59 sec   </b></i>
+<br>     <b> TO SEE MY CUBING VIDEOS CLICK THE IMAGE LINK BUTTON :
+       <a href="https://youtu.be/jhjdvvTEeXg">
+            <img border="0" alt="SP" src="yt.png" width="150" height="100"></a>
+
+            <B><I>SEE YOUR CUBE SOLVING TIME IN THE TIMER BELOW </I></B>
+</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:black;font-size:50px;color:gold;">DRAWING
+  </span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p> My favorite hobby in which i am engaged all the time is drawing . At first I to did not have much intrest on drawing but due the lock down  as I could not go any where I leart drawing with the help of <b> Youtube </b> .I love drawing cute pictures and cartoons.
+    .</p>
+  </div>
+</div>
+
+<div class="bgimg-4">
+  <div class="caption">
+  <span class="border" style="background-color:black;font-size:50px;color: gold;">PHOTOGRAPHY
+  </span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>  I too love photograpy ,there are many type of birds and animals that man has not discovered yet. Many birds come rest on the compound of my house which I end up sooting pics of them . I even take pics of animals when I go on a trip with my family . Photograpy is such an art in which we can shoot creatures in our camera and show it to our friends without shedding a drop blood. We all Know the saying that <b>SHOOT ANIMALS WITH CAMERA , NOT WITH A GUN </b>. We  should follow this so that our country become the rich difersified country.
+
+       <div class="bgimg-5">
+        <div class="caption">
+            <span class="border" style="background-color: transparent; font:50px;color: gold;" >
+        </span>
+        </div>
+      </div>
+
+      <div class="col-md-8 col-sm-10 pr-0">
+
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <img src="D:\SaiPrateeth\Small_Basic_AND_VISUAL_BASIC_SAIPRATEETH_FILES\spppp\img\favicon.png" alt="Paris" style="width:300px;height:200px">
+            </div>
+            <div class="flip-box-back">
+              <h2>Paris</h2>
+              <p>What an amazing city</p>
+            </div>
+          </div>
+        </div>
+
+
+        
+
+
+        <h1>Cube Timer</h1>
+        <table class="w-100" cellpadding="10" cellspacing="25" align="center" style="border-bottom: 1px solid #ccc;">
+        <tr>
+        <td valign="top" align="center">
+        <div id="scramble">Scramble:&nbsp;&nbsp;F' &nbsp;R &nbsp;D &nbsp;B' &nbsp;D' &nbsp;B' &nbsp;U2 &nbsp;B2 &nbsp;R' &nbsp;L' &nbsp;D &nbsp;F &nbsp;D' &nbsp;F' &nbsp;L2 &nbsp;F &nbsp;D &nbsp;F' &nbsp;D2 &nbsp;L2 &nbsp;R' &nbsp;F &nbsp;R2 &nbsp;L2 &nbsp;D'</div>
+        <div id="elapsed_time" style="font-size: 90px; font-style: italic; font-weight: bold; color: #f70000;" onclick="if(isMobile) { pushbutton(); }">00:00:00</div>
+        <div id="short_info">
+        <h2> practice until you surpass your previous record.
+        <br />
+        <span class="show-desktop-inline">Hit your
+        <strong>Spacebar</strong></span>
+        <span class="show-mobile-inline">Touch <strong>Red Timer</strong> </span>
+        to start/stop.</h2>
+        
+        <form name="settings_form" style="margin: 10px 0; font-size: 11px;">
+        <div id="settings_panel">
+        Inspection Time:
+        <select name="insp_time" style="font-size: 11px;" onchange="save_settings();">
+        <option value="0">no inspection</option>
+        <option value="3">3 seconds</option>
+        <option value="5">5 seconds</option>
+        <option value="10">10 seconds</option>
+        <option value="15">15 seconds</option>
+        </select>
+        <input type="checkbox" id="insp_sound" class="d-none" name="insp_sound" onclick="save_settings();">
+        </div>
+        </form>
+        </div>
+        <script language="javascript">
+            //$('#full_info').hide();
+
+        </script>
+<div id="time_log">
+<form name="time_log_form">
+<div id="puzzle_selector">
+<h5><b> SP THE CUBER</b></h5>
+</div>
+<div style="margin: 5px 0; font-size: 10px;">
+    <a class="clear_time" href="javascript:clear_times()">clear times</a>
+</div>
+<div class="w-100">
+<div id="times" class="float-left homepage-width-attempt-list" >
+<div style="height: 192px; margin-top: 24px; overflow: auto; padding: 5px; border: 1px solid #89c; background: #fff;">&nbsp;</div>
+</div>
+<div id="avg" style="margin-top: 10px; ">&nbsp;</div>
+<div id="stats" class="w-70 float-left homepage-width-time-chart" style="min-height: 145px;">
+<table border="0" cellspacing="5" cellpadding="0" width="100%">
+<tr>
+<td><label>Average:</label></td>
+<td id="stat_avg" class="text-danger">--:--.--</td>
+<td><label>Best:</label></td>
+<td id="stat_best" class="text-danger">--:--.--</td>
+</tr>
+<tr>
+<td><label>Avg. 5:</label></td>
+<td id="stat_avg5">--:--.--</td>
+<td><label>Avg. 10:</label></td>
+<td id="stat_avg10">--:--.--</td>
+</tr>
+<tr>
+<td><label>Avg. 20:</label></td>
+<td id="stat_avg20">--:--.--</td>
+<td><label>Avg. 30:</label></td>
+<td id="stat_avg30">--:--.--</td>
+</tr>
+<tr>
+<td><label>Avg. 40:</label></td>
+<td id="stat_avg40">--:--.--</td>
+<td><label>Avg. 50:</label></td>
+<td id="stat_avg50">--:--.--</td>
+</tr>
+ <tr>
+<td><label>Avg. 75:</label></td>
+<td id="stat_avg75">--:--.--</td>
+<td><label>Avg. 100:</label></td>
+<td id="stat_avg100">--:--.--</td>
+</tr>
+</table>
+</div>
+</div>
+</form>
+</div>
+</td>
+</tr>
+</table>
+<script>
+    window.addEventListener('keydown', function(e) {
+        if (e.keyCode == 32 && e.target == document.body) {
+            e.preventDefault();
+        }
+    });
+
+</script>
+
+<script language="javascript" src="D:\SaiPrateeth\Small_Basic_AND_VISUAL_BASIC_SAIPRATEETH_FILES\spppp\kbc.js"></script>
+<script language="javascript" src="D:\SaiPrateeth\Small_Basic_AND_VISUAL_BASIC_SAIPRATEETH_FILES\spppp\custom_v1.4.js"></script>
+      
+     
+
+
+
+
+<a href="saiprateeth.weebly.com "Click to see my personal website</a>
+  <img border="0" alt="SP" src="yt.png" width="150" height="100"></a>
+
+
+
+
+...
+
+  </div>
+</div>
+</body>
+</html> 
+
+
+
+
+
+
